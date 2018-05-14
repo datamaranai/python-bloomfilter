@@ -17,8 +17,7 @@ DESCRIPTION = 'Datamaran\'s fork of Pybloom adapted to Python3'
 URL = 'https://github.com/datamaranai/python-bloomfilter/'
 EMAIL = 'jjanarek@gmail.com'
 AUTHOR = 'jxub'
-REQUIRES_PYTHON = '>=3.5.0'
-VERSION = '3.0.0'
+VERSION = '3.0.4'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -89,10 +88,8 @@ setup(
     version=about['__version__'],
     description=DESCRIPTION,
     long_description=long_description,
-    long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=EMAIL,
-    python_requires=REQUIRES_PYTHON,
     keywords=('data structures', 'bloom filter', 'bloom', 'filter',
               'probabilistic', 'set'),
     url=URL,
